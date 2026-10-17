@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Usage：bash run_rnaseq.sh sample_list.txt output_dir
+# Usage：bash rnaseq-pipeline.sh sample_list.txt output_dir
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: bash run_rnaseq.sh <sample_list.txt> <output_dir>"
+    echo "Usage: bash rnaseq-pipeline.sh <sample_list.txt> <output_dir>"
     exit 1
 fi
 
